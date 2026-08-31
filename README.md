@@ -37,15 +37,37 @@ The system also provides business insights by recording sales history and custom
 |----------|---------------|----------|-----|--------------|
 |Java|Java Swing|MySQL|Apache NetBeans|Object-Oriented Programming (OOP)|
 
-
 ## Installation
 
-1. Clone this repository. `git clone https://github.com/yourusername/AutoDeals.git`
-2. Open the project using Apache NetBeans.
-3. Create the database: `db_autodeals2`
-4. Import the provided SQL database.
-5. Configure the database connection.
-6. Run the project.
+### Prerequisites
+- Java JDK 11 or newer (JDK 17 recommended)
+- Apache NetBeans
+- MySQL Server
+
+### Setup
+1. Clone the repository:
+   `git clone https://github.com/wedawesnwa/desktop-app-auto-deals.git`
+2. Open the project in **Apache NetBeans**.
+3. Make sure **MySQL Server** is running.
+4. Create the database:
+
+   ```sql
+   CREATE DATABASE db_autodeals;
+   ```
+5. Import the provided SQL file into the `db_autodeals` database.
+6. Configure the database connection in the Java project:
+
+   * **Host:** `localhost`
+   * **Port:** `3306`
+   * **Database:** `db_autodeals`
+   * **Username:** `root`
+   * **Password:** your MySQL password
+     
+7. Verify that all required `.jar` dependencies are configured under **Libraries** in Apache NetBeans.
+8. Clean and build the project.
+9. Run the project.
+
+
    
 ## Environment Variables
 
@@ -54,7 +76,7 @@ Example:
 ```env
 DB_HOST=localhost
 DB_PORT=3306
-DB_NAME=db_autodeals2
+DB_NAME=db_autodeals
 DB_USER=root
 DB_PASSWORD=
 ```
