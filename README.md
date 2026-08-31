@@ -6,12 +6,14 @@
 ![GitHub forks](https://img.shields.io/github/forks/username/repository?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-## 📖 About
+![preview](Video-Project-20.gif)
+
+## About
 AutoDeals is a desktop-based car dealership management system developed as an Object-Oriented Programming final project. The application is designed to support offline dealership operations by helping administrators, owners, and employees manage vehicle data, employee information, customer transactions, and payment records efficiently.
 
 The system also provides business insights by recording sales history and customer purchasing trends, allowing dealership owners to monitor operational performance more effectively.
 
-## ✨ Features
+## Features
 
 - Multi-user authentication (Admin, Employee, Owner)
 - Vehicle management (Add, Edit, Delete)
@@ -30,13 +32,13 @@ The system also provides business insights by recording sales history and custom
 - Fully integrated MySQL database
 
 
-## 🛠 Tech Stack
+## Tech Stack
 | Language | GUI Framework | Database | IDE | Architecture |
 |----------|---------------|----------|-----|--------------|
 |Java|Java Swing|MySQL|Apache NetBeans|Object-Oriented Programming (OOP)|
 
 
-## 🚀 Installation
+## Installation
 
 1. Clone this repository. `git clone https://github.com/yourusername/AutoDeals.git`
 2. Open the project using Apache NetBeans.
@@ -45,7 +47,7 @@ The system also provides business insights by recording sales history and custom
 5. Configure the database connection.
 6. Run the project.
    
-## ⚙ Environment Variables
+## Environment Variables
 
 Example:
 
@@ -58,7 +60,7 @@ DB_PASSWORD=
 ```
 
 
-## 📷 Screenshots
+## Screenshots
 <table>
   <tr>
     <th>Admin</th>
@@ -195,28 +197,27 @@ DB_PASSWORD=
 </table>
 
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```text
 project
 │
 ├── src
+│   ├── Config
 │   ├── component
-│   ├── controller
-│   ├── database
+│   ├── img
+│   ├── icon
+│   ├── event
 │   ├── dialog
 │   ├── form
 │   ├── model
-│   ├── service
+│   ├── public
 │   ├── swing
 │   └── main
-│
-├── assets
-├── screenshots
 └── README.md
 ```
 
-## 💡 Challenges & Solutions
+## Challenges & Solutions
 
 | Challenge | Solution |
 |------------|----------|
@@ -225,7 +226,7 @@ project
 | Managing dealership data | Implemented CRUD operations for vehicles, brands, employees, customers, and transactions using a centralized MySQL database. |
 | Generating business reports	| Added report generation and PDF printing to simplify financial monitoring and transaction documentation. |
 
-## 🔮 Future Improvements
+## Future Improvements
 - Add customer search optimization.
 - Export reports to Excel.
 - Improve dashboard visualization with sales analytics.
